@@ -11,8 +11,8 @@ The script then writes functions that it will later use to extract and consolida
 
 # Analysis
 
-The script then reads in and merges the subject, activity, and features data.  Appropriate column names are assigned and features other that *mean* and *standard deviation* are removed. The average each feature is calculated and recorded for each activity and each subject. Finally, the activity values are changed from numbers to descriptions.
+The script then reads in and merges the subject, activity, and features data.  Appropriate column names are assigned and features other than *mean* and *standard deviation* are removed. The average each remaining feature is then calculated and recorded for each combination of subject and activity. Finally, the activity values are changed from numbers to usful descriptions.
 
 # Results
 
-When the analysis is complete the user is notified and the results of the analysis are written to the working directory under the file named **HAR Tidy Dataset.txt**
+When the analysis is complete the user is notified and the results of the analysis are written to the working directory to a file named **HAR Tidy Dataset.txt**.
